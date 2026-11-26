@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Práctica de escritura · VLA TOEFL iBT 2026</title>
+  <meta name="description" content="Página pública de práctica de Build a Sentence y Write an Email, con retroalimentación inmediata. Vancouver Language Academy.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230e2744'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='22' font-family='sans-serif' font-weight='700' fill='white'%3EVLA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner wrap">
+      <a class="mark" href="./">
+        <span class="mark-badge">VLA</span>
+        <span>
+          <strong>Vancouver Language Academy</strong>
+          <span>TOEFL iBT 2026 · Colombia</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#oracion">Build a Sentence</a>
+        <a href="#correo">Write an Email</a>
+        <a class="muted hidden-sm" href="#inicio">Cómo empezar</a>
+        <a class="muted hidden-sm" href="#tarjetas">Tarjetas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap stack">
+    <header class="hero">
+      <div class="row" id="badges">
+        <span class="badge">Writing</span>
+        <span class="badge gold">Build a Sentence</span>
+        <span class="badge gold">Write an Email</span>
+        <span class="badge plain">Sin inicio de sesión</span>
+      </div>
+      <h1>Práctica de escritura</h1>
+      <p>Solo las dos tareas de Writing: Build a Sentence (Cuando tengas esta oración…) y Write an Email. Cada intento devuelve retroalimentación inmediata: acierto o rúbrica, conteo de palabras frente a la meta de <span data-word-target>150</span>, y tarjetas de apoyo en español. No hay Reading, Listening ni Speaking en esta página.</p>
+      <div class="row">
+        <a class="btn blue" href="#oracion">Ir a Build a Sentence</a>
+        <a class="btn" href="#correo">Ir a Write an Email</a>
+        <a class="btn outline" href="#inicio">Cómo y por qué empezar la oración</a>
+      </div>
+    </header>
+
+    <section id="oracion" class="section">
+      <div class="row between">
+        <div>
+          <h2>Build a Sentence</h2>
+          <p class="sm muted" style="max-width:42rem">Un set de 10 oraciones originales (~7 minutos). En práctica puedes comprobar y ver la pista de inicio; en modo examen no hay pistas hasta el final. El desglose muestra aciertos, banda estimada (1–6, solo referencia) y la tarjeta de la estructura.</p>
+        </div>
+        <div class="row" id="bas-mode-btns"></div>
+      </div>
+      <div id="bas-root">Cargando set…</div>
+    </section>
+
+    <section id="correo" class="section">
+      <div id="email-root"></div>
+    </section>
+
+    <section id="inicio" class="section">
+      <h2>Cómo y por qué empezar la oración</h2>
+      <div id="why-openers"></div>
+    </section>
+
+    <section id="tarjetas" class="section">
+      <h2>Tarjetas de gramática</h2>
+      <div id="grammar-cards" class="grid-2 lg-2"></div>
+    </section>
+
+    <p class="fine muted" id="credits"></p>
+  </main>
+
+  <footer class="site-footer">
+    Vancouver Language Academy · práctica original de Writing para el TOEFL iBT 2026. Esta página es pública y no guarda tu trabajo en una cuenta. Los puntajes son una guía de entrenamiento, no una puntuación oficial.
+  </footer>
+
+  <script src="logic.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
